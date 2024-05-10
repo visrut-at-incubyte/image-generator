@@ -15,7 +15,9 @@ export class AppComponent {
 
   saveImage() {
     htmlToImage
-      .toPng(this.post.nativeElement)
+      .toPng(this.post.nativeElement, {
+        backgroundColor: 'inherit',
+      })
       .then((dataUrl) => {
         const link = document.createElement('a');
         link.download = 'my-image-name.png';
