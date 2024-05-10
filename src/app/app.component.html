@@ -1,7 +1,9 @@
-<main class="flex flex-col h-screen bg-black text-white items-center justify-center">
+<main
+  class="flex flex-col h-screen bg-black text-white items-center justify-center"
+>
   <section
     #post
-    class="border border-white p-5 rounded-xl w-[600px] h-[322px] flex flex-col"
+    class="border border-white p-5 rounded-xl flex flex-col bg-gradient-to-r from-[#000000] to-[#2C272E]"
   >
     <header class="flex">
       <img
@@ -23,6 +25,7 @@
         the workplace.
       </p>
     </main>
+    <pre><code [highlightAuto]="code"></code></pre>
   </section>
 
   <button (click)="saveImage()" class="btn mt-5">Download Post</button>
