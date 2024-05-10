@@ -1,0 +1,3 @@
+pnpm create @angular image-generator
+pnpm install -D tailwindcss postcss autoprefixer
+pnpm dlx tailwindcss init
