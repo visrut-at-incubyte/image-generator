@@ -41,6 +41,9 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.19.2
+      html-to-image:
+        specifier: ^1.11.11
+        version: 1.11.11
       rxjs:
         specifier: ~7.8.0
         version: 7.8.1
@@ -2361,6 +2364,9 @@ packages:
 
   html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
+
+  html-to-image@1.11.11:
+    resolution: {integrity: sha512-9gux8QhvjRO/erSnDPv28noDZcPZmYE7e1vFsBLKLlRlKDSqNJYebj6Qz1TGd5lsRV+X+xYyjCKjuZdABinWjA==}
 
   htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
@@ -6626,6 +6632,8 @@ snapshots:
   html-entities@2.5.2: {}
 
   html-escaper@2.0.2: {}
+
+  html-to-image@1.11.11: {}
 
   htmlparser2@8.0.2:
     dependencies:
